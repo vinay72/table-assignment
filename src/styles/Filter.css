@@ -1,0 +1,26 @@
+.filter {
+    padding: 20px 0;
+}
+
+.filter__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter__dropdown-title {
+    margin-right: 10px;
+}
+
+.filter__search-container {
+    display: flex;
+}
+
+.filter__search-button {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.filter__table-hint {
+    color: grey;
+    margin-top: 5px;
+}
