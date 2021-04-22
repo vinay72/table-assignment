@@ -1,77 +1,95 @@
 export default {
   "status" : "success",
   "data" : {
-    "users": [
-    {
-      "id": 6,
-      "name": "Mrs. Dennis Schulist",
-      "username": "Leopoldo_Corkery",
-      "email": "Karley_Dach@jasper.info",
-      "address": {
-        "street": "Norberto Crossing",
-        "suite": "Apt. 950",
-        "city": "South Christy",
-        "zipcode": "23505-1337",
-        "geo": {
-          "lat": "-71.4197",
-          "lng": "71.7478"
-        }
+    "posts" : [
+      {
+        "id" : 1,
+        "username": "mike",
+        "title" : "My new car",
+        "views": 456,
+        "likes": 45,
+        "createdAt" : "2016-05-11T18:25:43.511Z"
       },
-      "phone": "1-477-935-8478 x6430",
-      "website": "ola.org",
-      "company": {
-        "name": "Considine-Lockman",
-        "catchPhrase": "Synchronised bottom-line interface",
-        "bs": "e-enable innovative applications"
-      }
-    },
-    {
-      "id": 7,
-      "name": "Vinay Sagar Sharma",
-      "username": "Elwyn.Skiles",
-      "email": "Telly.Hoeger@billy.biz",
-      "address": {
-        "street": "Rex Trail",
-        "suite": "Suite 280",
-        "city": "Howemouth",
-        "zipcode": "58804-1099",
-        "geo": {
-          "lat": "24.8918",
-          "lng": "21.8984"
-        }
+      {
+        "id" : 2,
+        "username": "john",
+        "title" : "My new house",
+        "views": 222,
+        "likes": 15,
+        "createdAt" : "2016-05-23T18:25:43.511Z"
       },
-      "phone": "210.067.6132",
-      "website": "elvis.io",
-      "company": {
-        "name": "Johns Group",
-        "catchPhrase": "Configurable multimedia task-force",
-        "bs": "generate enterprise e-tailers"
+      {
+        "id" : 3,
+        "username": "mike",
+        "title" : "My new song",
+        "views": 1000,
+        "likes": 98,
+        "createdAt" : "2016-04-01T18:25:43.511Z"
+      },
+      {
+        "id" : 4,
+        "username": "charles",
+        "title" : "Curiosities",
+        "views": 778,
+        "likes": 120,
+        "createdAt" : "2016-03-12T18:25:43.511Z"
+      },
+      {
+        "id" : 5,
+        "username": "bob",
+        "title" : "How I love to travel",
+        "views": 2102,
+        "likes": 245,
+        "createdAt" : "2016-07-15T18:25:43.511Z"
+      },
+      {
+        "id" : 6,
+        "username": "bob",
+        "title" : "Hidden mysteries",
+        "views": 222,
+        "likes": 22,
+        "createdAt" : "2016-08-09T18:25:43.511Z"
+      },
+      {
+        "id" : 7,
+        "username": "mike",
+        "title" : "Luxury cars",
+        "views": 300,
+        "likes": 10,
+        "createdAt" : "2016-06-22T18:25:43.511Z"
+      },
+      {
+        "id" : 8,
+        "username": "john",
+        "title" : "Best cooking recipes",
+        "views": 5400,
+        "likes": 500,
+        "createdAt" : "2016-06-11T18:25:43.511Z"
+      },
+      {
+        "id" : 9,
+        "username": "charles",
+        "title" : "My new job",
+        "views": 100,
+        "likes": 4,
+        "createdAt" : "2016-09-03T18:25:43.511Z"
+      },
+      {
+        "id" : 10,
+        "username": "mike",
+        "title" : "Best movies of 2015",
+        "views": 300,
+        "likes": 30,
+        "createdAt" : "2016-04-23T18:25:43.511Z"
+      },
+      {
+        "id" : 11,
+        "username": "charles",
+        "title" : "Best series of 2016",
+        "views": 1200,
+        "likes": 130,
+        "createdAt" : "2016-06-10T18:25:43.511Z"
       }
-    },
-    {
-      "name": "Vinay Sagar Sharma",
-      "username": "vinay72",
-      "email": "vinaysagar971995@gmail.com",
-      "phone": "+916005443702",
-      "website": "www.immeasurable.in",
-      "id": 8
-    },
-    {
-      "name": "Arjun Gupta",
-      "username": "abk1234",
-      "email": "abgk123@gmail.com",
-      "phone": "9796442424",
-      "website": "www.engigyan.com",
-      "id": 9
-    },
-    {
-      "name": "Vikrant Singh Bandral",
-      "username": "viki897",
-      "email": "vikrant.singhbandral@gmail.com",
-      "phone": "9086456789",
-      "website": "www.goolie.com",
-      "id": 10
-    }
-  ]
+    ]
   }
 };

@@ -9,7 +9,7 @@ export default combineReducers({
   form: formReducer,
 });
 
-/** Selectors */
+
 
 export const currentPageSelector = (state, start) => 
   fromPosts.currentPageSelector(state.posts, start);
@@ -20,11 +20,7 @@ export const postsSelector = (state, start, q, sort) =>
 export const pagesArraySelector = (state, q) =>
   fromPosts.pagesArraySelector(state.posts, q);
 
-/**
- * Selector that extracts UI data from URL sort query param
- * @param sortQuery: string, format => '<column> <order>'
- * @returns {{by: string, order: string}}
- */
+
 export const sortInfoSelector = (sortQuery) => {
   const info = sortQuery.split(' ');
   return {
