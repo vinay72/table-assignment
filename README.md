@@ -1,8 +1,8 @@
  Table with React and Redux
 =====================
- - Running Demo at Node Server
+ 
 
- ![2021-04-22 (1)](https://user-images.githubusercontent.com/28500944/115748929-3eeb9780-a3b4-11eb-9f6b-54340c32f91a.png)
+ 
 
 This project has been bootstrapped with [react-create-app](https://github.com/facebookincubator/create-react-app) boilerplate 
 
